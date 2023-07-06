@@ -1,0 +1,13 @@
+{
+  "name": "elm-firebase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "elm-watch hot",
+    "build": "elm-watch make --optimize"
+  },
+  "devDependencies": {
+    "elm-watch": "^1.1.2"
+  }
+}

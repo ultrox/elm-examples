@@ -1,0 +1,10 @@
+{
+    "targets": {
+        "elm firebase": {
+            "inputs": [
+                "src/Main.elm"
+            ],
+            "output": "build/elm.js"
+        }
+    }
+}
