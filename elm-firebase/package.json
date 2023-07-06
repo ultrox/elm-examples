@@ -4,10 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "elm-watch hot",
-    "build": "elm-watch make --optimize"
+    "dev": "run-pty run-pty.json",
+    "build": "elm-watch make --optimize",
+    "dev:elm": "elm-watch hot",
+    "dev:server": "web-dev-server --root-dir public --app-index public/index.html --open"
   },
   "devDependencies": {
-    "elm-watch": "^1.1.2"
+    "@web/dev-server": "^0.2.5",
+    "elm-watch": "^1.1.2",
+    "run-pty": "^4.0.3"
+  },
+  "dependencies": {
+    "firebase": "^9.23.0"
   }
 }
