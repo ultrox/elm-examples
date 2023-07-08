@@ -1,8 +1,0 @@
-[
-  {
-    "command": ["npm", "run", "dev:server"]
-  },
-  {
-    "command": ["npm", "run", "dev:elm"]
-  }
-]
