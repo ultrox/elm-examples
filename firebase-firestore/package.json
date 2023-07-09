@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "firebase emulators:start",
-    "serve": "firebase serve"
+    "serve": "firebase serve",
+    "deploy": "firebase deploy"
   }
 }
