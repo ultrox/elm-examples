@@ -49,7 +49,7 @@ onAuthStateChanged(auth, (user) => {
     nicob1 = DB.collection(db, 'nicob1');
 
     createBatchBtn.onclick = () => {
-      alert("why touch this 🍆 ");
+      alert("why touch this");
       return;
       const batch = DB.writeBatch(db);
       subs.forEach((s) => {
