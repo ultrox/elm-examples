@@ -1,9 +1,7 @@
 ### Decoders
 - [Decoding in Elm - Jack](https://www.jackfranklin.co.uk/blog/json-decoding-in-elm/)
 
-Decoding is used when you are about to accept data from untrusted/unknown source. 
-You agreed (implecetly) about what data source will send you but to be sure, you need to decode (make sure)
-that's the case, you don't blindly trust it.
+Decoding validates and interprets data to ensure integrity, enforce data contracts, and mitigate security risks. Less strictly typed languages, such as JavaScript, presume data integrity and use implicit type coercion, risking bugs and vulnerabilities. Stricter languages like Elm require explicit decoding, enhancing safety and predictability.
 
 ### Simple decoding (Name)
 
