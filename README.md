@@ -12,4 +12,6 @@ Examples
 
 ## Zippers
 - [Micro Zipper - Questions](https://ellie-app.com/nvkSxRHbWXFa1)
-- https://github.com/miyamoen/select-list/tree/4.1.0
+- [miyamoen/select-list](https://github.com/miyamoen/select-list/tree/4.1.0)
+- [richard selectlist](https://github.com/wernerdegroot/listzipper/blob/4.0.0/src/List/Zipper.elm)
+- [wernerdegroot/listzipper](https://github.com/wernerdegroot/listzipper/blob/4.0.0/src/List/Zipper.elm)
